@@ -7,7 +7,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = '07cff2db-0a95-422f-aac0-5502db0be9e8';
 
 const proxyIPs = ["2.189.59.2"]; //workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
-const cn_hostnames = ['tamin.ir'];
+const cn_hostnames = [''];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
